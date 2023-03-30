@@ -1,0 +1,26 @@
+/* Write your code here. */
+.image {
+  height: 500px;
+  width: 600px;
+}
+
+.bg-container {
+  padding: 40px;
+}
+
+.nature-photo {
+  font-size: 18px;
+}
+
+.photo-by {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
