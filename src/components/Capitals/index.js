@@ -32,20 +32,22 @@ const countryAndCapitalsList = [
 // Write your code here
 
 class Capitals extends Component {
-  state = {country: 'India'}
+  state = {country: 'India', selectedValue: 'NEW_DELHI'}
 
   onDropdownChange = event => {
     const dropDown = event.target.value
-    console.log(dropDown)
 
     const countryName = countryAndCapitalsList.filter(each =>
       each.id.includes(dropDown),
     )
-    this.setState({country: countryName[0].country})
+    this.setState({
+      country: countryName[0].country,
+      selectedValue: countryName[0].id,
+    })
   }
 
   render() {
-    const {country} = this.state
+    const {country, selectedValue} = this.state
 
     return (
       <div className="bg-container">
@@ -55,6 +57,7 @@ class Capitals extends Component {
             <select
               name="capitals"
               className="dropdown"
+              value={selectedValue}
               onChange={this.onDropdownChange}
             >
               {countryAndCapitalsList.map(each => (
