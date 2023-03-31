@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.bg-container {
+  text-align: center;
+  padding: 40px;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-apStore {
+  font-size: 28px;
+  font-family: 'Bree Serif';
+  font-size: 39px;
+}
+
+.search-icon {
+  height: 32px;
+  width: 30px;
+  border: none;
+  background-color: transparent;
+}
+
+.search-container {
+  border: 1px solid #7b8794;
+  background-color: transparent;
+  font-size: 19px;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+  width: 25%;
+}
+
+.search-bar {
+  background-color: transparent;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 90%;
+  color: #1e293b;
+}
+
+.tabs-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+
+.app-items-container {
+  list-style-type: none;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.list-item {
+  cursor: pointer;
+  color: #7b8794;
+  font-weight: 500;
+  width: 20%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-active-item {
+  color: #2563eb;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
+
+.horizontal-line {
+  width: 135%;
+  margin-top: 0px;
+}
+
+.active-line {
+  width: 135%;
+  margin-top: 0px;
+  border-top: 2px solid #2563eb;
+}
+.list-btn {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+}
