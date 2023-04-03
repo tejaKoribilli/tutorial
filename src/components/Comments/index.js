@@ -32,16 +32,6 @@ class Comments extends Component {
       name: '',
       comment: '',
     }))
-
-    console.log(noOfComments)
-
-    return (
-      <ul>
-        {commentList.map(each => (
-          <CommentItem newComment={each} key={each.id} />
-        ))}
-      </ul>
-    )
   }
 
   onChangeName = event => {
@@ -53,7 +43,14 @@ class Comments extends Component {
   }
 
   render() {
-    const {name, comment, commentList} = this.state
+    const {name, comment, commentList, noOfComments} = this.state
+
+    let isCommentsExists = true
+    if (noOfComments === 0) {
+      isCommentsExists = false
+    } else {
+      isCommentsExists = true
+    }
 
     return (
       <div className="bg-container">
@@ -88,6 +85,17 @@ class Comments extends Component {
           />
         </div>
         <hr className="horizontal-line" />
+        <div className="noOfComments-container">
+          <p className="count">{noOfComments}</p>
+          <p className="comment-para">Comments</p>
+        </div>
+        {isCommentsExists && (
+          <ul className="list-container">
+            {commentList.map(each => (
+              <CommentItem eachComment={each} key={each.id} />
+            ))}
+          </ul>
+        )}
       </div>
     )
   }

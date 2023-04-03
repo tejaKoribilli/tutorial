@@ -27,3 +27,58 @@
 }
 
 /* Write your CSS here */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
+.comments-top-container {
+  display: flex;
+}
+
+.like-container {
+  display: flex;
+  margin-left: 10px;
+}
+.name-logo {
+  background-color: #f97316;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  border-radius: 140px;
+  margin: 9px;
+}
+.user-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #334155;
+}
+.comment-time {
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.comment {
+  font-size: 15px;
+  color: #475569;
+  margin-left: 57px;
+}
+.like-image {
+  height: 25px;
+  width: 25px;
+  margin-top: 13px;
+}
+.like {
+  color: #475569;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.delete-icon {
+  height: 25px;
+  width: 23px;
+  margin-top: 13px;
+}
+.horizontal-line {
+  border-color: #94a3b8;
+  width: 100%;
+}
