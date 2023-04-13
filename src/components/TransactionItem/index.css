@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.list-item {
+  padding: 8px;
+  margin: 0px;
+  display: flex;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  width: 95%;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+.delete-image {
+  height: 23px;
+  width: 23px;
+}
+.column-ele {
+  width: 30%;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  font-weight: 500;
+  color: #475569;
+}

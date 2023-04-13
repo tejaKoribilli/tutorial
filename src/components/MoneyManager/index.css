@@ -1,0 +1,118 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  padding: 40px;
+}
+
+.top-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 30px;
+  width: 90%;
+  border-radius: 18px;
+}
+.richard-name {
+  font-size: 28px;
+}
+.top-container-msg {
+  font-size: 17px;
+  color: #7e858e;
+}
+.money-manager {
+  color: #0b69ff;
+}
+.bottom-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.add-transaction-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 9px;
+  padding: 20px;
+  width: 290px;
+}
+.add-transaction-heading {
+  font-size: 23px;
+  padding-top: 0px;
+  color: #334155;
+  font-weight: 500;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.label-text {
+  font-size: 16px;
+  color: #7e858e;
+  margin-top: 6px;
+}
+.input-feild {
+  padding: 7px;
+  font-size: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  margin-bottom: 13px;
+  margin-top: 7px;
+  width: 90%;
+}
+.add-btn {
+  background-color: #0b69ff;
+  color: white;
+  width: 65px;
+  padding: 9px;
+  margin-top: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+.history-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 9px;
+  padding: 20px;
+  width: 370px;
+}
+
+.history-heading {
+  font-size: 23px;
+  padding-top: 0px;
+  color: #334155;
+  font-weight: 500;
+}
+.column-name-container {
+  border: 1px solid #cbd5e1;
+  padding: 2px;
+  width: 95%;
+  display: flex;
+}
+.column-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #334155;
+}
+.title-column {
+  padding-left: 5px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.amount-column {
+  padding-left: 45px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.type-column {
+  padding-left: 45px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.list-container {
+  padding: 0px;
+  margin: 0px;
+}

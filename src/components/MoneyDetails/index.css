@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.moneyDetails-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.transaction-container {
+  border: 1px solid #84cc16;
+  border-radius: 12px;
+  padding: 10px;
+  background-color: #ecfccb;
+  display: flex;
+}
+.transaction-icon {
+  height: 70px;
+  width: 67px;
+  align-self: center;
+  padding: 6px;
+}
+.transaction-info-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 7px;
+  margin: 6px;
+}
+.transaction-type {
+  font-size: 14px;
+  color: #7e858e;
+  margin-top: 6px;
+}
+.transaction-amount {
+  font-size: 23px;
+  color: #334155;
+  margin-top: 1px;
+  margin-bottom: 3px;
+}
+.expense-container {
+  background-color: #dad0ea;
+  border: 1px solid #7c3aed;
+}
+
+.income-container {
+  background-color: #d3e9ee;
+  border: 1px solid #06b6d4;
+}
