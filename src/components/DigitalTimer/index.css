@@ -1,0 +1,113 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 70vw;
+  box-shadow: 0px 4px 2px 0px;
+}
+.heading {
+  align-self: center;
+}
+.clock-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 611px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock-container {
+  background-color: #ffffff;
+  border-radius: 200px;
+  height: 160px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  font-size: 30px;
+  font-weight: 900;
+  color: #00d9f5;
+  margin: 0px;
+}
+
+.running {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1e293b;
+  margin: 0px;
+}
+
+.start-reset-container {
+  display: flex;
+}
+.bottom-container {
+  display: flex;
+}
+.main-container {
+  height: 600px;
+  align-items: center;
+  padding-top: 200px;
+}
+.play-icon {
+  height: 30px;
+  width: 30px;
+  margin-top: 0px;
+  margin-left: 27px;
+}
+.start-reset {
+  font-size: 24px;
+  padding-left: 7px;
+  margin-top: 0px;
+  border: none;
+  background-color: transparent;
+}
+.start-pause {
+  font-size: 24px;
+  padding-left: 7px;
+  margin-top: 0px;
+  border: none;
+  background-color: transparent;
+}
+.set-timer-limit {
+  font-size: 15px;
+  margin-left: 90px;
+  font-weight: 500;
+}
+.set-time-container {
+  display: flex;
+  margin-left: 85px;
+}
+
+.minus-plus {
+  font-size: 40px;
+  margin-top: 7px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.set-time {
+  background-image: linear-gradient(to right, #71efd0, #00d9f5);
+  padding: 5px;
+  height: 42px;
+  width: 70px;
+  border-radius: 8px;
+  font-size: 22px;
+  text-align: center;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-weight: 500;
+}
+.icon-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 0px;
+  display: flex;
+}
