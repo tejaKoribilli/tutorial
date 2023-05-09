@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.language-img {
+  height: 90px;
+  width: 80px;
+}
+.list-item-container {
+  margin: 17px;
+  background-color: #f8f8ff;
+  width: 220px;
+  height: 330px;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icons-info-container {
+  display: flex;
+}
+.icon-img {
+  height: 17px;
+  width: 18px;
+  margin: 9px 5px 7px;
+}
+.language-name {
+  font-size: 17px;
+  color: #e73959;
+  margin-left: 6px;
+}
+.icon-info {
+  font-size: 17px;
+  margin: 7px 3px 7px;
+}
+.list-item-content-container {
+  text-align: left;
+}

@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.github-repo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  padding-top: 30px;
+}
+
+.popular-heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+}
+.languageFilter-list-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+
+  list-style-type: none;
+}
+.repositoryItem-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+}
+.failure-view {
+  height: 600px;
+  width: 500px;
+}
