@@ -1,0 +1,137 @@
+/* Write your CSS here */
+.productsItem-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-bg-container {
+  display: flex;
+  flex-direction: column;
+}
+.product-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 20px;
+  text-align: left;
+}
+.rating-review-container {
+  display: flex;
+  align-items: center;
+}
+.products-img {
+  height: 420px;
+  width: 280px;
+  border-radius: 12px;
+}
+.product-title {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.product-price {
+  margin: 0px 0px 6px;
+}
+.rating-btn {
+  background-color: #3b82f6;
+  padding: 8px;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  margin-right: 10px;
+  height: 40px;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+.star-icon {
+  height: 20px;
+  width: 20px;
+}
+.product-description {
+  font-size: 15px;
+}
+.availability-heading {
+  font-weight: 700;
+  margin: 4px 0px 4px;
+  display: flex;
+}
+.brand-heading {
+  font-weight: 700;
+  margin: 4px 0px 4px;
+  display: flex;
+}
+.availability-brand {
+  color: #616e7c;
+  font-weight: 500;
+}
+.horizontal-line {
+  border: 1px solid #616e7c;
+  width: 100%;
+}
+.add-to-cart {
+  background-color: #3b82f6;
+  margin-top: 10px;
+  border: none;
+  border-radius: 9px;
+  color: white;
+  outline: none;
+  align-self: flex-start;
+  padding: 8px;
+}
+.quantity-container {
+  display: flex;
+  font-weight: 700;
+}
+.quantity-icon {
+  margin: 8px 13px 0px;
+  color: #616e7c;
+}
+.similar-products-container {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.similar-products-list-container {
+  display: flex;
+
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.failure-img {
+  height: 500px;
+  width: 500px;
+}
+.render-failure-heading {
+  font-size: 40px;
+  text-align: center;
+}
+.continue-shopping-btn {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+  width: 140px;
+}
+.render-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.total-revews-container {
+  display: flex;
+}
+.plus-minus-btn {
+  border: none;
+  background-color: transparent;
+}
