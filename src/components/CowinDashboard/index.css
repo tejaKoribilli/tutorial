@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.CowinDashboard-bg-container {
+  background-color: #161625;
+  width: 80vw;
+  padding: 30px 70px 60px;
+}
+.website-logo-container {
+  display: flex;
+}
+.website-logo {
+  height: 35px;
+  width: 35px;
+}
+.coWin-heading {
+  color: #2cc6c6;
+  font-size: 20px;
+  padding-left: 8px;
+  margin-top: 5px;
+}
+.co-Vaccination-heading {
+  color: #cbd5e1;
+  font-size: 18px;
+}
+.failure-view {
+  height: 500px;
+  width: 500px;
+}
+
+.vaccination-heading {
+  color: #cbd5e1;
+  font-size: 18px;
+}
+.vaccination-container {
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #1c1c2b;
+}

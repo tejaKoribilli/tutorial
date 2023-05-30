@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.vaccination-coverage-heading {
+  color: #94a3b8;
+  font-size: 18px;
+}
+.vaccination-coverage-container {
+  margin-top: 30px;
+  background-color: #6c757d;
+}
