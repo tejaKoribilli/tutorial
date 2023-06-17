@@ -1,0 +1,10 @@
+.renderAllJobsList-container {
+  list-style-type: none;
+}
+@media screen and (max-width: 768px) {
+  .renderAllJobsList-container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}

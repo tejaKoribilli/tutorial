@@ -1,0 +1,19 @@
+.renderTypeOfEmployee-container {
+  color: #ffffff;
+}
+.employeeType-list-container {
+  padding: 0px;
+  list-style-type: none;
+}
+.employee-type-heading {
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-top: 26px;
+}
+.employee-type-label {
+  font-size: 17px;
+  padding-left: 10px;
+}
+.employee-type-list-item {
+  margin-top: 10px;
+}

@@ -1,0 +1,61 @@
+.similarjobs-logo-role-container {
+  display: flex;
+  height: 89px;
+}
+.similar-job-card-container {
+  background-color: #202020;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 27px;
+  border-radius: 12px;
+  width: 260px;
+  padding: 15px 15px 15px;
+}
+@media screen and (max-width: 768px) {
+  .similar-job-card-container {
+    width: 100%;
+  }
+}
+.star-img {
+  margin-top: 4px;
+  color: #fbbf24;
+}
+.company-logo-url {
+  height: 60px;
+  width: 60px;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.rating-icon-container {
+  display: flex;
+}
+
+.similar-card-desc-heading {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.job-title-heading {
+  font-size: 13px;
+}
+
+.location-jobType-container {
+  display: flex;
+}
+.job-location {
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+.briefcase-icon {
+  margin-top: 19px;
+}
+.job-employment-type {
+  font-size: 15px;
+  margin: 18px 5px 5px;
+}
+.similar-job-card-desc {
+  height: 245px;
+}
